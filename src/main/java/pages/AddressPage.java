@@ -26,6 +26,7 @@ public class AddressPage {
         uiActions.setText(streetNameFieldID,WebUIActions.Locators.id,Helpers.addressData.getProperty("streetName"));
         uiActions.setText(buildingNameFieldID,WebUIActions.Locators.id,Helpers.addressData.getProperty("buildingName"));
         uiActions.setText(cityFieldID,WebUIActions.Locators.id,Helpers.addressData.getProperty("city"));
+        Thread.sleep(1500);
         uiActions.setText(districtFieldID,WebUIActions.Locators.id,Helpers.addressData.getProperty("district"));
         uiActions.setText(nearestLandMarkFieldID,WebUIActions.Locators.id,Helpers.addressData.getProperty("nearestLandMark"));
 

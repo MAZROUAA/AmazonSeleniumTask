@@ -1,0 +1,8 @@
+
+<suite name="ProductsPurchasing">
+    <test name="videoGamesPurchasing">
+        <classes>
+            <class name="tests.TestVideiGamesPurchasing"/>
+        </classes>
+    </test>
+</suite>
