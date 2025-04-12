@@ -11,7 +11,7 @@ Steps For Run:
 1. Clone the repo
 2. Open the project on Intellij
 3. Put your test data in config.properties and addressDetails.properties
-4. it will run by deafault on fire fox 
+4. it will run by deafault on fire fox but if you want to use chrome change the browser value to chrome in the test file (src/test/java/tests/TestVideiGamesPurchasing.java)
 5. Run your tests by running TestNg.xml or by using (mvn clean test) command
 
 Notes:
