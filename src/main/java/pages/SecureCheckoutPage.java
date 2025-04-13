@@ -18,7 +18,7 @@ public class SecureCheckoutPage {
     public void naviagteToAddAddressPage() {
 
         try {
-            uiActions.clickOn(changeAddressID, WebUIActions.Locators.id);
+            //uiActions.clickOn(changeAddressID, WebUIActions.Locators.id);
             uiActions.clickOn(addNewAddressButtonID, WebUIActions.Locators.id);
         } catch (Exception e) {
             try {

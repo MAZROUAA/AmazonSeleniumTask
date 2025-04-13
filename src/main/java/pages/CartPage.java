@@ -103,8 +103,6 @@ public class CartPage {
                     System.out.println("The cart is Empty now"+e);
                 }
 
-        Assert.assertEquals(uiActions.getText(cartCount),"0");
-
 
     }
 

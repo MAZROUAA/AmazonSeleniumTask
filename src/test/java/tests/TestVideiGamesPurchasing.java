@@ -22,8 +22,6 @@ public class TestVideiGamesPurchasing {
 
         browserActions.initializingWebDriver(browser);
 
-        browserActions.initializingWebDriver("browser");
-
         browserActions.screenMaximizing();
     }
 
