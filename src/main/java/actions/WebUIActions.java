@@ -18,6 +18,7 @@ public class WebUIActions {
     private List<WebElement> elements;
 
     public void clickOn(String selector,Locators l) {
+
         By b = returnElementLocatorBy(selector,l);
         waitUntil(b, ExpectedConditionsEnum.presenceOfElement);
         waitUntil(b, ExpectedConditionsEnum.ElementToBeClickable);

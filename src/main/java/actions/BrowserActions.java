@@ -3,6 +3,7 @@ package actions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserActions {
 
@@ -11,10 +12,12 @@ public class BrowserActions {
     public void initializingWebDriver(String browser) {
         try{
             if(browser.toLowerCase().equals(BrowserActions.Browsers.chrome.toString())) {
+                WebDriverManager.chromedriver().setup();
                 this.driver = new ChromeDriver();
 
             }
             else if(browser.toLowerCase().equals( BrowserActions.Browsers.firefox.toString())){
+                WebDriverManager.firefoxdriver().setup();
                 this.driver = new FirefoxDriver();
 
             }

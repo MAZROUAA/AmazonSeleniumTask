@@ -15,6 +15,7 @@ public class LoginPage {
     WebUIActions uiActions = new WebUIActions();
 
     public void login() throws InterruptedException {
+        Thread.sleep(1500);
         //Navigate to login page
         uiActions.clickOn(loginTapID,WebUIActions.Locators.id);
 

@@ -11,14 +11,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestVideiGamesPurchasing {
 
 
-
+    public final String browser="firefox";
     BrowserActions browserActions =new BrowserActions();
 
     @BeforeClass
 
     //A setup function to open the browser
     public void setup() {
-        browserActions.initializingWebDriver("firefox");
+        browserActions.initializingWebDriver(browser);
         browserActions.screenMaximizing();
     }
 
