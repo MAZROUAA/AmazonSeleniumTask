@@ -12,13 +12,21 @@ public class TestVideiGamesPurchasing {
 
 
     public final String browser="firefox";
+<<<<<<< HEAD
+=======
+
+>>>>>>> b71dd1e258007820448d925ab3745733a3568430
     BrowserActions browserActions =new BrowserActions();
 
     @BeforeClass
 
     //A setup function to open the browser
     public void setup() {
+<<<<<<< HEAD
         browserActions.initializingWebDriver(browser);
+=======
+        browserActions.initializingWebDriver("browser");
+>>>>>>> b71dd1e258007820448d925ab3745733a3568430
         browserActions.screenMaximizing();
     }
 
